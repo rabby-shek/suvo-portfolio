@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -8,5 +9,5 @@
   --color-secondary: #dffa6f;
 }
 body {
-  overflow: hidden;
+  font-family: "Josefin Sans", sans-serif;
 }

@@ -1,0 +1,151 @@
+/* navbar styles */
+.navbar {
+  background-color: #ffff;
+}
+.nav-top{
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+  color: blue;
+  font-weight: bolder;
+}
+.nav-top .navbar-brand {
+  color: #f9f9f9;
+}
+.navbar .navbar-brand img {
+  width: 1rem;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.nav-item{
+  margin-right: 10px;
+  font-size: 1.1rem;
+}
+.nav-top .nav-item a{
+  color: #000000;
+}
+
+/* hero section styles */
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    var(--color-primary) 0%,
+    var(--color-primary) 65%,
+    var(--color-secondary) 65%,
+    var(--color-secondary) 100%
+  );
+  padding-bottom: 2rem;
+}
+
+.hero-developer-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+}
+.hero-para {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: url("./assets/images/bag.svg");
+}
+
+.hero-image-container img {
+  max-width: 100%;
+  height: auto;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.hero-bg-pattern {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ffffffbb;
+  padding: 5px;
+}
+
+.hero-sub-content {
+  color: var(--color-secondary);
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* engineering section styles */
+
+.engineering-container {
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+/* experience styles */
+.experience-container {
+  height: 100vh;
+}
+
+/* footer styles */
+footer {
+  background-color: #3d155f;
+  color: var(--color-secondary);
+}
+/* responsive styles */
+
+@media (max-width: 768px) {
+  .hero-container{
+    padding: 5rem 0;
+    height: 100%;
+  }
+  .nav-top{
+    background-color: #fff;
+    z-index: 999;
+  }
+  .hero-developer-title {
+    color: #333;
+    font-size: 2rem;
+    text-align: center;
+    
+  }
+  .hero-para {
+    text-align: center;
+    color: #333;
+  }
+
+  .hero-image-container {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .hero-image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .hero-bg-pattern {
+    border: none;
+  }
+  .hero-sub-content {
+    color: #333;
+  }
+}
