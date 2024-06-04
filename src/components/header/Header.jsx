@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import BrandLogo from '../../assets/images/brand-logo.png';
+
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
@@ -28,7 +28,7 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg nav-top">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="#home">
             {/* <img src={BrandLogo} alt="brand-logo" /> */}
             Suvo
           </a>
@@ -46,7 +46,7 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">
+                <a className="nav-link" aria-current="page" href="#home">
                   Home
                 </a>
               </li>
@@ -86,7 +86,7 @@ const Header = () => {
           data-aos="fade-down"
         >
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="#home">
               {/* <img src={BrandLogo} alt="brand-logo" /> */}
               Suvo
             </a>
@@ -104,7 +104,7 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarNavSecondary">
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
-                  <a className="nav-link" aria-current="page" href="#">
+                  <a className="nav-link" aria-current="page" href="#home">
                     Home
                   </a>
                 </li>
