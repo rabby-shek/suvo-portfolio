@@ -16,6 +16,9 @@
 .nav-top .navbar-brand {
   color: #f9f9f9;
 }
+.nav-shadow{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 .navbar .navbar-brand img {
   width: 1rem;
   height: auto;
@@ -114,12 +117,15 @@ footer {
 
 @media (max-width: 768px) {
   .hero-container{
-    padding: 5rem 0;
+    padding-top: 7rem;
     height: 100%;
   }
   .nav-top{
     background-color: #fff;
     z-index: 999;
+  }
+  .nav-top .navbar-brand{
+    color: blue;
   }
   .hero-developer-title {
     color: #333;

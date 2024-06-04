@@ -82,7 +82,7 @@ const Header = () => {
 
       {showSecondaryNavbar && (
         <nav
-          className="navbar navbar-expand-lg bg-body-tertiary fixed-top"
+          className="navbar navbar-expand-lg bg-body-tertiary fixed-top nav-shadow"
           data-aos="fade-down"
         >
           <div className="container-fluid">
