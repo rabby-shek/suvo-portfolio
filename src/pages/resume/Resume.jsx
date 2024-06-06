@@ -37,9 +37,21 @@ const Resume = () => {
             <p className='sub-title'>Frontend and Web Developer</p>
             <p className='objective'>Engineer valued for driving high-performance accessible web experiences. I design quality, user-friendly and scalable products regardless of stack. </p>
             <hr />
+            <div className='education'>
+              <h4>Education</h4>
+              <div className="row">
+              <div className="col-lg-8 col-sm-6">
+                <div className="company-name">Sonargoan University</div>
+                <div>BSC in CSE</div>
+                <div className='mb-3'>CGPA : 3.50 out of 4.00</div>
+              </div>
+              <div className="col-lg-4 col-sm-6">January 2020 - january 2024</div>
+            </div>
+            </div>
             <div className='experience'>
             <h4>Experience</h4>
             <p>I’ve worked on a handful of web projects over the years, some of which were for the following organizations: </p>
+           
             <div className="row">
               <div className="col-lg-8 col-sm-6">
                 <div className="company-name">AdovaSoft</div>
