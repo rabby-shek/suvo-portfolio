@@ -1,6 +1,7 @@
 /* navbar styles */
 .navbar {
   background-color: #ffff;
+  z-index: 999;
 }
 .nav-top{
   position: absolute;
@@ -32,6 +33,14 @@
 .nav-top .nav-item a{
   color: #000000;
 }
+.nav-link{
+  padding: 0 1rem;
+}
+.nav-link.active{
+  background-color: rgb(243, 243, 243);
+  border-radius: 2px 2px 8px 8px;
+}
+
 
 /* hero section styles */
 .hero-container {
@@ -101,11 +110,39 @@
 .engineering-container {
   height: 100vh;
   background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.engineering-container .title{
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+.engineering-container p{
+  text-align: justify;
 }
 
-/* experience styles */
-.experience-container {
-  height: 100vh;
+/* certificate styles */
+.certificate-container {
+  padding: 4rem 0;
+  height: 100%;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-secondary);
+}
+.certificate-container img{
+  width: 100%;
+}
+.certificate-container .title{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  color: var(--color-primary);
+  margin-bottom: 1.2rem;
 }
 
 /* footer styles */
@@ -113,8 +150,141 @@ footer {
   background-color: #3d155f;
   color: var(--color-secondary);
 }
-/* responsive styles */
 
+/* blog posts styles */
+.blog-container .title{
+  font-size: 3rem;
+  margin-bottom: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+#blog {
+  padding: 5rem 0;
+  background-color: #78b8e2b6;
+}
+.blog-post {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.blog-post img {
+  width: 40%;
+  object-fit: cover;
+}
+
+/* resume container */
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  background-color: var(--color-primary);
+}
+
+ .back-btn{
+  padding: 0.5rem 1.3rem;
+  border: none;
+  outline: none;
+  background-color: var(--color-primary);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .3rem;
+  transition: all .3s ease-in-out;
+}
+.back-btn:hover{
+  background-color: #fff;
+  color: #333;
+}
+#row{
+  background-color: #f0ebeb;
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+}
+.resume-container .personal-info{
+  margin-bottom: 2rem;
+}
+.resume-container .name{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+}
+.resume-container .sub-title{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.resume-container .objective{
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.resume-container .experience{
+  font-size: 1.2rem;
+}
+.resume-container .projects a{
+  text-align: center;
+}
+/* project styles */
+.projects-container{
+  height: 100%;
+  padding: 4rem 0;
+  background-color: var(--color-secondary);
+}
+/* responsive styles */
+@media (max-width: 1024px) {
+  .blog-post {
+    flex-direction: column;
+  }
+  .blog-post img {
+    width: 100%;
+  }
+}
+@media (max-width: 850px) {
+  .hero-container{
+    padding-top: 7rem;
+    height: 100%;
+  }
+  .nav-top{
+    background-color: #fff;
+    z-index: 999;
+  }
+  .nav-top .navbar-brand{
+    color: blue;
+  }
+  .hero-developer-title {
+    color: #333;
+    font-size: 2rem;
+    text-align: center;
+    
+  }
+  .hero-para {
+    text-align: center;
+    color: #333;
+  }
+
+  .hero-image-container {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .hero-image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .hero-bg-pattern {
+    border: none;
+  }
+  .hero-sub-content {
+    color: #333;
+  }
+  .engineering-container{
+    height: 100%;
+    padding: 1rem 0;
+  }
+}
 @media (max-width: 768px) {
   .hero-container{
     padding-top: 7rem;
@@ -153,5 +323,9 @@ footer {
   }
   .hero-sub-content {
     color: #333;
+  }
+  .engineering-container{
+    height: 100%;
+    padding: 1rem 0;
   }
 }

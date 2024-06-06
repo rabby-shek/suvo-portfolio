@@ -1,10 +1,32 @@
-import React, { useState, useEffect } from 'react';
-
-import 'aos/dist/aos.css';
-import AOS from 'aos';
-
+import React, { useState, useEffect } from "react";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import { NavLink, useNavigate } from "react-router-dom";
 const Header = () => {
   const [showSecondaryNavbar, setShowSecondaryNavbar] = useState(false);
+  const navigate = useNavigate();
+  const navLinks = [
+    {
+      id: 1,
+      title: "Home",
+      path: "/",
+    },
+    {
+      id: 3,
+      title: "Resume",
+      path: "/resume",
+    },
+    {
+      id: 4,
+      title: "Projects",
+      path: "/projects",
+    },
+    {
+      id: 5,
+      title: "Blogs",
+      path: "/blogs",
+    },
+  ];
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -17,19 +39,18 @@ const Header = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg nav-top">
+      <nav className="navbar navbar-expand-lg nav-top" id="home">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#home">
-            {/* <img src={BrandLogo} alt="brand-logo" /> */}
+          <a className="navbar-brand" href="#nav" onClick={() => navigate("/")}>
             Suvo
           </a>
           <button
@@ -45,36 +66,15 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#home">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#about">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#skills">
-                  Skills
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#resume">
-                  Resume
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#portfolio">
-                  Portfolio
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#contact">
-                  Contact
-                </a>
-              </li>
+              {navLinks.map((item) => {
+                return (
+                  <li key={item.id} className="nav-item">
+                    <NavLink className="nav-link" to={item.path}>
+                      {item.title}
+                    </NavLink>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </div>
@@ -103,36 +103,15 @@ const Header = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavSecondary">
               <ul className="navbar-nav ms-auto">
-                <li className="nav-item">
-                  <a className="nav-link" aria-current="page" href="#home">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#about">
-                    About
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#skills">
-                    Skills
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#resume">
-                    Resume
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#portfolio">
-                    Portfolio
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#contact">
-                    Contact
-                  </a>
-                </li>
+                {navLinks.map((item) => {
+                  return (
+                    <li key={item.id} className="nav-item">
+                      <NavLink className="nav-link" to={item.path}>
+                        {item.title}
+                      </NavLink>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>
