@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/suvo-portfolio/static/css/main.bfbc586a.css",
-    "main.js": "/suvo-portfolio/static/js/main.ecd5b16b.js",
+    "main.js": "/suvo-portfolio/static/js/main.f23fa222.js",
     "static/js/453.eeea2c24.chunk.js": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js",
     "static/media/home-page.PNG": "/suvo-portfolio/static/media/home-page.ff1093674dcee3bd1e6e.PNG",
     "static/media/hero-section.PNG": "/suvo-portfolio/static/media/hero-section.9a9bf04d01e724dfc7cc.PNG",
@@ -26,11 +26,11 @@
     "static/media/RESUME.jpg": "/suvo-portfolio/static/media/RESUME.cb8076fd17506b2703f5.jpg",
     "index.html": "/suvo-portfolio/index.html",
     "main.bfbc586a.css.map": "/suvo-portfolio/static/css/main.bfbc586a.css.map",
-    "main.ecd5b16b.js.map": "/suvo-portfolio/static/js/main.ecd5b16b.js.map",
+    "main.f23fa222.js.map": "/suvo-portfolio/static/js/main.f23fa222.js.map",
     "453.eeea2c24.chunk.js.map": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bfbc586a.css",
-    "static/js/main.ecd5b16b.js"
+    "static/js/main.f23fa222.js"
   ]
 }
