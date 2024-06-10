@@ -356,8 +356,8 @@ footer {
   margin: 15px 0 30px;
 }
 .article-img img{
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 300px;
 }
 .article .article-title {
   padding: 15px 0 20px;
