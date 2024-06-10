@@ -22,6 +22,8 @@ const Resume = () => {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
+                <li>php</li>
+                <li>ReactJS</li>
                 <li>Bootstrap</li>
                 <li>Tailwind (Basic)</li>
                 <li>JQuery</li>
