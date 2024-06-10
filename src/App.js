@@ -19,7 +19,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/suvo-portfolio" element={<Home />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blog/view/:id" element={<View />} />
