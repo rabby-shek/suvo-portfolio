@@ -31,7 +31,9 @@ const View = () => {
                 </div>
               </div>
               <div className="article-content">
-                <p>{blog.content}</p>
+                <p dangerouslySetInnerHTML={{
+                      __html: blog.content ? blog.content : "",
+                    }}></p>
                 <h4>{blog.exampleTitle ? blog.exampleTitle : ""}</h4>
                 <div className="code">
                   <div
