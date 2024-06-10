@@ -7,6 +7,11 @@ import Restaurant from "../../assets/images/restaurant-landing-page/hero-section
 import SmartHotel from "../../assets/images/smart-hotel/home-page.PNG";
 import WeatherApp from "../../assets/images/weatherapp/weatherapp1.PNG";
 import Portfolio from "../../assets/images/reactportfolio/home.PNG";
+import CarRentalService from "../../assets/images/car-rental-service.PNG";
+import AnalogWatch from "../../assets/images/analog-watch-design.PNG";
+import TodoApp from "../../assets/images/todo-app.PNG";
+import DigitalClock from "../../assets/images/digital-clock.PNG";
+import TikTakToe from "../../assets/images/tik-tac-toe.PNG";
 const Projects = () => {
   const projects = [
     {
@@ -88,6 +93,51 @@ const Projects = () => {
       technology : ["ReactJS","Bootstrap","CSS"],
       link: "https://rabby-shek.github.io/reactprotfolio/"
     },
+    {
+      id: 10,
+      category: "web",
+      imgSrc: CarRentalService,
+      description: "Car rental Service with invoice.",
+      name: "Car rental service",
+      technology : ["ReactJS","Bootstrap","CSS", "API", "Context API"],
+      link: "https://rabby-shek.github.io/car-rental-invoice-service/"
+    },
+    {
+      id: 11,
+      category: "web",
+      imgSrc: AnalogWatch,
+      description: "JavaScript Analog Watch Project.",
+      name: "Analog Watch",
+      technology : ["HTML", "CSS", "JavaScript"],
+      link: "https://rabby-shek.github.io/analog-watch-design/"
+    },
+    {
+      id: 12,
+      category: "web",
+      imgSrc: TodoApp,
+      description: "Todo App",
+      name: "Todo App",
+      technology : ["ReactJS"],
+      link: "https://rabby-shek.github.io/todoapp/"
+    },
+    {
+      id: 13,
+      category: "web",
+      imgSrc: DigitalClock,
+      description: "Digital Clock",
+      name: "Digital Clock",
+      technology : ["HTML", "CSS", "JS"],
+      link: "https://rabby-shek.github.io/digital_clock/"
+    },
+    {
+      id: 14,
+      category: "web",
+      imgSrc: TikTakToe,
+      description: "tic tac toe",
+      name: "tic tac toe",
+      technology : ["ReactJS","CSS"],
+      link: "https://rabby-shek.github.io/tiktactoe/"
+    },
   ];
 
   const renderProjects = (category) => {
@@ -100,7 +150,7 @@ const Projects = () => {
             <div className="card-body">
                 <div className="fw-bold">{project.name}</div>
                 <div>{project.description}</div>
-                <div>{project.technology.join(",")}</div>
+                <div>{project.technology.join(", ")}</div>
                 <a href={project.link} target="_blank" rel="noreferrer">Live</a>
             </div>
           </div>

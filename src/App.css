@@ -199,10 +199,13 @@ footer {
   color: #333;
 }
 #row{
-  background-color: #f0ebeb;
+  background-color: #ffffff;
   padding: 2rem 1rem;
   margin: 2rem 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 5px solid rgb(170, 166, 166);
 }
+
 .resume-container .personal-info{
   margin-bottom: 2rem;
 }
@@ -225,6 +228,12 @@ footer {
 }
 .resume-container .projects a{
   text-align: center;
+}
+.skill-list{
+  list-style-type: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 /* skills styles */
 .skills-container {
@@ -284,6 +293,7 @@ footer {
   padding: 4rem 0;
   background-color: var(--color-secondary);
 }
+
 /* responsive styles */
 @media (max-width: 1024px) {
   .blog-post {

@@ -9,7 +9,7 @@ const Resume = () => {
     <section className='resume-container'>
       <div className="container">
         <div className="row" id='row'>
-        <div><a  href={RESUME} download >Download</a></div>
+        <div className='resume-download-btn'><a  href={RESUME} download >Download</a></div>
           <div className="col-lg-3 col-sm-6">
             <div className='personal-info'>
               <div className="email">rabbyshek1998@gmail.com</div>
@@ -18,7 +18,7 @@ const Resume = () => {
             </div>
             <div className="technologies">
               <h4>Technologies</h4>
-              <ul>
+              <ul className='skill-list'>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -47,7 +47,7 @@ const Resume = () => {
                 <div>BSC in CSE</div>
                 <div className='mb-3'>CGPA : 3.50 out of 4.00</div>
               </div>
-              <div className="col-lg-4 col-sm-6">January 2020 - january 2024</div>
+              <div className="col-lg-4 col-sm-6 text-end">January 2020 - January 2024</div>
             </div>
             </div>
             <div className='experience'>
@@ -56,10 +56,10 @@ const Resume = () => {
            
             <div className="row">
               <div className="col-lg-8 col-sm-6">
-                <div className="company-name">AdovaSoft</div>
-                <p>Junior Web Developer</p>
+                <div className="company-name fw-bold">AdovaSoft</div>
+                <p className='fw-bold h6'>Junior Web Developer</p>
               </div>
-              <div className="col-lg-4 col-sm-6">Oct 2021 - Present</div>
+              <div className="col-lg-4 col-sm-6 text-end">Oct 2021 - Present</div>
               <div className="col-lg-12 col-sm-12">
               <ul>
                   <li>Collaborated closely with seasoned developers to implement and maintain web applications.</li>
@@ -70,10 +70,10 @@ const Resume = () => {
             </div>
             <div className="row">
               <div className="col-lg-8 col-sm-6">
-                <div className="company-name">AdovaSoft</div>
-                <p>Frontend Developer</p>
+                <div className="company-name fw-bold">AdovaSoft</div>
+                <p className='fw-bold h6'>Frontend Developer</p>
               </div>
-              <div className="col-lg-4 col-sm-6">March 2021 - September 2021</div>
+              <div className="col-lg-4 col-sm-6 text-end">March 2021 - September 2021</div>
               <div className="col-lg-12 col-sm-12">
               <ul>
                   <li>Crafted immersive web experiences, prioritizing user-centric design principles.</li>
