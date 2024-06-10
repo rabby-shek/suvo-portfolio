@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/suvo-portfolio/static/css/main.bfbc586a.css",
-    "main.js": "/suvo-portfolio/static/js/main.f23fa222.js",
+    "main.js": "/suvo-portfolio/static/js/main.37bce6b9.js",
     "static/js/453.eeea2c24.chunk.js": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js",
     "static/media/home-page.PNG": "/suvo-portfolio/static/media/home-page.ff1093674dcee3bd1e6e.PNG",
     "static/media/hero-section.PNG": "/suvo-portfolio/static/media/hero-section.9a9bf04d01e724dfc7cc.PNG",
@@ -20,17 +20,17 @@
     "static/media/hangman-game.PNG": "/suvo-portfolio/static/media/hangman-game.4d35d636538a11dd0568.PNG",
     "static/media/tik-tac-toe.PNG": "/suvo-portfolio/static/media/tik-tac-toe.53b8b1c1e0117e622be5.PNG",
     "static/media/todo-app.PNG": "/suvo-portfolio/static/media/todo-app.52f364ea4d2f6decf37a.PNG",
-    "static/media/MD Rabby Shek Suvo Resume.pdf": "/suvo-portfolio/static/media/MD Rabby Shek Suvo Resume.72577313a68cb7803506.pdf",
+    "static/media/MD Rabby Shek Suvo Resume.pdf": "/suvo-portfolio/static/media/MD Rabby Shek Suvo Resume.6b7e6e1b073a49642a1c.pdf",
     "static/media/bag.svg": "/suvo-portfolio/static/media/bag.909585268b964798db88.svg",
     "static/media/digital-clock.PNG": "/suvo-portfolio/static/media/digital-clock.528289bee80378d2833b.PNG",
     "static/media/RESUME.jpg": "/suvo-portfolio/static/media/RESUME.cb8076fd17506b2703f5.jpg",
     "index.html": "/suvo-portfolio/index.html",
     "main.bfbc586a.css.map": "/suvo-portfolio/static/css/main.bfbc586a.css.map",
-    "main.f23fa222.js.map": "/suvo-portfolio/static/js/main.f23fa222.js.map",
+    "main.37bce6b9.js.map": "/suvo-portfolio/static/js/main.37bce6b9.js.map",
     "453.eeea2c24.chunk.js.map": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bfbc586a.css",
-    "static/js/main.f23fa222.js"
+    "static/js/main.37bce6b9.js"
   ]
 }
