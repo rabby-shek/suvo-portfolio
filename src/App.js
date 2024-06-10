@@ -10,6 +10,7 @@ import Blogs from './pages/blogs/Blogs';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Projects from './pages/projects/Projects';
+import View from './pages/blogs/View';
 function App() {
   useEffect(() => {
     Aos.init();
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blog/view/:id" element={<View />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
       <Footer />

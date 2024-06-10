@@ -1,10 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import { FaArrowLeft } from "react-icons/fa6";
-import { useNavigate } from 'react-router-dom';
 import RESUME from '../../assets/images/MD Rabby Shek Suvo Resume.pdf';
 const Resume = () => {
-   const navigate = useNavigate();
   return (
     <section className='resume-container'>
       <div className="container">
