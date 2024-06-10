@@ -9,7 +9,7 @@ const Header = () => {
     {
       id: 1,
       title: "Home",
-      path: "/",
+      path: "/suvo-portfolio",
     },
     {
       id: 3,
@@ -50,7 +50,7 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg nav-top" id="home">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#nav" onClick={() => navigate("/")}>
+          <a className="navbar-brand" onClick={() => navigate("/suvo-portfolio")}>
             Suvo
           </a>
           <button
