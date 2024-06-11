@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/suvo-portfolio/static/css/main.bfbc586a.css",
-    "main.js": "/suvo-portfolio/static/js/main.37bce6b9.js",
+    "main.css": "/suvo-portfolio/static/css/main.19e6a124.css",
+    "main.js": "/suvo-portfolio/static/js/main.064c762b.js",
     "static/js/453.eeea2c24.chunk.js": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js",
     "static/media/home-page.PNG": "/suvo-portfolio/static/media/home-page.ff1093674dcee3bd1e6e.PNG",
     "static/media/hero-section.PNG": "/suvo-portfolio/static/media/hero-section.9a9bf04d01e724dfc7cc.PNG",
@@ -25,12 +25,12 @@
     "static/media/digital-clock.PNG": "/suvo-portfolio/static/media/digital-clock.528289bee80378d2833b.PNG",
     "static/media/RESUME.jpg": "/suvo-portfolio/static/media/RESUME.cb8076fd17506b2703f5.jpg",
     "index.html": "/suvo-portfolio/index.html",
-    "main.bfbc586a.css.map": "/suvo-portfolio/static/css/main.bfbc586a.css.map",
-    "main.37bce6b9.js.map": "/suvo-portfolio/static/js/main.37bce6b9.js.map",
+    "main.19e6a124.css.map": "/suvo-portfolio/static/css/main.19e6a124.css.map",
+    "main.064c762b.js.map": "/suvo-portfolio/static/js/main.064c762b.js.map",
     "453.eeea2c24.chunk.js.map": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfbc586a.css",
-    "static/js/main.37bce6b9.js"
+    "static/css/main.19e6a124.css",
+    "static/js/main.064c762b.js"
   ]
 }
