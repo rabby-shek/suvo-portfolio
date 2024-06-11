@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/suvo-portfolio/static/css/main.19e6a124.css",
-    "main.js": "/suvo-portfolio/static/js/main.064c762b.js",
+    "main.js": "/suvo-portfolio/static/js/main.a47ea896.js",
     "static/js/453.eeea2c24.chunk.js": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js",
     "static/media/home-page.PNG": "/suvo-portfolio/static/media/home-page.ff1093674dcee3bd1e6e.PNG",
     "static/media/hero-section.PNG": "/suvo-portfolio/static/media/hero-section.9a9bf04d01e724dfc7cc.PNG",
@@ -26,11 +26,11 @@
     "static/media/RESUME.jpg": "/suvo-portfolio/static/media/RESUME.cb8076fd17506b2703f5.jpg",
     "index.html": "/suvo-portfolio/index.html",
     "main.19e6a124.css.map": "/suvo-portfolio/static/css/main.19e6a124.css.map",
-    "main.064c762b.js.map": "/suvo-portfolio/static/js/main.064c762b.js.map",
+    "main.a47ea896.js.map": "/suvo-portfolio/static/js/main.a47ea896.js.map",
     "453.eeea2c24.chunk.js.map": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19e6a124.css",
-    "static/js/main.064c762b.js"
+    "static/js/main.a47ea896.js"
   ]
 }
