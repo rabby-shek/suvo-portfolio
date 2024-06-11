@@ -38,11 +38,7 @@ const Certificates = () => {
       path: GoogleCertificate2,
       flip: 'flip-left'
     },
-    {
-      id: 7,
-      path: GoogleCertificate3,
-      flip: 'flip-right'
-    },
+    
   ];
   return (
     <section className="certificate-container">
