@@ -11,6 +11,7 @@ import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Projects from './pages/projects/Projects';
 import View from './pages/blogs/View';
+import { AnimatePresence } from 'framer-motion';
 function App() {
   useEffect(() => {
     Aos.init();
@@ -18,13 +19,15 @@ function App() {
   return (
     <Router>
       <Header />
-      <Routes>
-        <Route path="/suvo-portfolio" element={<Home />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/blogs" element={<Blogs />} />
-        <Route path="/blog/view/:id" element={<View />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
+      <AnimatePresence>
+        <Routes>
+          <Route path="/suvo-portfolio" element={<Home />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blog/view/:id" element={<View />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </AnimatePresence>
       <Footer />
     </Router>
   );

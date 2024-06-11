@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { blogsData } from "../../data/blog";
-
+import transition from "../../transition";
 const Blogs = () => {
   const navigate = useNavigate();
 
@@ -44,4 +44,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default transition(Blogs);

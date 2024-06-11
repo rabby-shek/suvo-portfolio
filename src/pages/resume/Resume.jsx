@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import RESUME from '../../assets/images/MD Rabby Shek Suvo Resume.pdf';
+import transition from '../../transition';
 const Resume = () => {
   return (
     <section className='resume-container'>
@@ -89,4 +90,4 @@ const Resume = () => {
   )
 }
 
-export default Resume;
+export default transition(Resume);

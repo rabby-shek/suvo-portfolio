@@ -12,6 +12,7 @@ import AnalogWatch from "../../assets/images/analog-watch-design.PNG";
 import TodoApp from "../../assets/images/todo-app.PNG";
 import DigitalClock from "../../assets/images/digital-clock.PNG";
 import TikTakToe from "../../assets/images/tik-tac-toe.PNG";
+import transition from "../../transition";
 const Projects = () => {
   const projects = [
     {
@@ -227,4 +228,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default transition(Projects);

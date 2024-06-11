@@ -4,6 +4,7 @@ import Engineering from "../../components/home/Engineering";
 import Experience from "../../components/home/Certificates";
 import Article from "../../components/home/Article";
 import Skills from "../../components/home/Skills";
+import transition from '../../transition';
 const Home = () => {
   return (
     <div className="snap">
@@ -16,4 +17,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default transition(Home);
