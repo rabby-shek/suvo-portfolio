@@ -5,7 +5,7 @@ import SoloLearnResponsiveCertificate from '../../assets/images/solo-learn-respo
 import IntroAlgorithmCertificate from '../../assets/images/introduction-algorithm-data-structure.png';
 import GoogleCertificate1 from '../../assets/images/google-colab-1.PNG';
 import GoogleCertificate2 from '../../assets/images/Gemini-api-program.PNG';
-import GoogleCertificate3 from '../../assets/images/Gemini-api-program.PNG';
+import HackerRankJS from "../../assets/images/hacker-rank-js-cirtificate.jpg";
 const Certificates = () => {
   const certificateList = [
     {
@@ -38,6 +38,11 @@ const Certificates = () => {
       path: GoogleCertificate2,
       flip: 'flip-left'
     },
+    {
+      id: 7,
+      path: HackerRankJS,
+      flip: 'flip-right'
+    }
     
   ];
   return (
