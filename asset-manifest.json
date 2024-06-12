@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/suvo-portfolio/static/css/main.19e6a124.css",
-    "main.js": "/suvo-portfolio/static/js/main.a47ea896.js",
+    "main.js": "/suvo-portfolio/static/js/main.45cf77db.js",
     "static/js/453.eeea2c24.chunk.js": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js",
     "static/media/home-page.PNG": "/suvo-portfolio/static/media/home-page.ff1093674dcee3bd1e6e.PNG",
     "static/media/hero-section.PNG": "/suvo-portfolio/static/media/hero-section.9a9bf04d01e724dfc7cc.PNG",
+    "static/media/hero.PNG": "/suvo-portfolio/static/media/hero.3107936662101bcaadb1.PNG",
     "static/media/solo-learn-responsive.png": "/suvo-portfolio/static/media/solo-learn-responsive.577e02e31fdc685a1057.png",
     "static/media/solo-l-js.png": "/suvo-portfolio/static/media/solo-l-js.0f2f37a6266a07ab0a3a.png",
     "static/media/css-solo-learn-cirtificate.png": "/suvo-portfolio/static/media/css-solo-learn-cirtificate.a6893a9bc9a0d6752cc0.png",
@@ -26,11 +27,11 @@
     "static/media/RESUME.jpg": "/suvo-portfolio/static/media/RESUME.cb8076fd17506b2703f5.jpg",
     "index.html": "/suvo-portfolio/index.html",
     "main.19e6a124.css.map": "/suvo-portfolio/static/css/main.19e6a124.css.map",
-    "main.a47ea896.js.map": "/suvo-portfolio/static/js/main.a47ea896.js.map",
+    "main.45cf77db.js.map": "/suvo-portfolio/static/js/main.45cf77db.js.map",
     "453.eeea2c24.chunk.js.map": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19e6a124.css",
-    "static/js/main.a47ea896.js"
+    "static/js/main.45cf77db.js"
   ]
 }
