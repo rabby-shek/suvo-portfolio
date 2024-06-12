@@ -13,28 +13,13 @@ import TodoApp from "../../assets/images/todo-app.PNG";
 import DigitalClock from "../../assets/images/digital-clock.PNG";
 import TikTakToe from "../../assets/images/tik-tac-toe.PNG";
 import transition from "../../transition";
+import Cactus from '../../assets/images/cactus/hero.PNG';
 const Projects = () => {
   const projects = [
+    
+    
     {
       id: 1,
-      category: "web",
-      imgSrc: Docrx1,
-      description: "Prescription, Medicine and schedule management.",
-      name: "DocRx",
-      technology : ["HTML", "CSS", "JavaScript","JQuery","PHP","MySQL"],
-      link: "https://smartprescription.hishabkitab.com/"
-    },
-    {
-      id: 2,
-      category: "web",
-      imgSrc: GPT3,
-      description: "Chat GPT Landing page",
-      name: "GPT-3",
-      technology : ["HTML", "CSS", "ReactJS",],
-      link: "https://rabby-shek.github.io/gpt/"
-    },
-    {
-      id: 3,
       category: "web",
       imgSrc: HangMan,
       description: "Web Word guessing game.",
@@ -43,7 +28,7 @@ const Projects = () => {
       link: "https://rabby-shek.github.io/hangman_game/"
     },
     {
-      id: 4,
+      id: 2,
       category: "app",
       imgSrc: "https://png.pngtree.com/png-vector/20230318/ourmid/pngtree-cute-yellow-bee-cartoon-illustration-png-image_6653635.png",
       description: "Bill payment app for tenants.",
@@ -51,7 +36,7 @@ const Projects = () => {
       technology : ["JAVA", "Firebase"]
     },
     {
-      id: 5,
+      id: 3,
       category: "web",
       imgSrc: IMS,
       description: "Institution Management System",
@@ -59,16 +44,7 @@ const Projects = () => {
       technology : ["HTML", "CSS","ReactJs","Styled-Component","Framer-motion"]
     },
     {
-      id: 6,
-      category: "web",
-      imgSrc: Restaurant,
-      description: "Restaurant Landing page",
-      name: "Restaurant Landing page",
-      technology : ["HTML", "CSS","JavaScript", "AOS"],
-      link: "https://rabby-shek.github.io/quality/#home"
-    },
-    {
-      id: 7,
+      id: 4,
       category: "web",
       imgSrc: SmartHotel,
       description: "Hotel management system",
@@ -77,7 +53,7 @@ const Projects = () => {
       link: "https://smarthotel.hishabkitab.com/"
     },
     {
-      id: 8,
+      id: 5,
       category: "web",
       imgSrc: WeatherApp,
       description: "ReactJS Weather Application",
@@ -86,7 +62,7 @@ const Projects = () => {
       link: "https://rabby-shek.github.io/react-weather-app/"
     },
     {
-      id: 9,
+      id: 6,
       category: "web",
       imgSrc: Portfolio,
       description: "ReactJS Portfolio",
@@ -94,17 +70,9 @@ const Projects = () => {
       technology : ["ReactJS","Bootstrap","CSS"],
       link: "https://rabby-shek.github.io/reactprotfolio/"
     },
+   
     {
-      id: 10,
-      category: "web",
-      imgSrc: CarRentalService,
-      description: "Car rental Service with invoice.",
-      name: "Car rental service",
-      technology : ["ReactJS","Bootstrap","CSS", "API", "Context API"],
-      link: "https://rabby-shek.github.io/car-rental-invoice-service/"
-    },
-    {
-      id: 11,
+      id: 7,
       category: "web",
       imgSrc: AnalogWatch,
       description: "JavaScript Analog Watch Project.",
@@ -113,7 +81,7 @@ const Projects = () => {
       link: "https://rabby-shek.github.io/analog-watch-design/"
     },
     {
-      id: 12,
+      id: 8,
       category: "web",
       imgSrc: TodoApp,
       description: "Todo App",
@@ -122,7 +90,7 @@ const Projects = () => {
       link: "https://rabby-shek.github.io/todoapp/"
     },
     {
-      id: 13,
+      id: 9,
       category: "web",
       imgSrc: DigitalClock,
       description: "Digital Clock",
@@ -131,7 +99,7 @@ const Projects = () => {
       link: "https://rabby-shek.github.io/digital_clock/"
     },
     {
-      id: 14,
+      id: 10,
       category: "web",
       imgSrc: TikTakToe,
       description: "tic tac toe",
@@ -139,11 +107,58 @@ const Projects = () => {
       technology : ["ReactJS","CSS"],
       link: "https://rabby-shek.github.io/tiktactoe/"
     },
+    {
+      id: 11,
+      category: "web",
+      imgSrc: GPT3,
+      description: "Chat GPT Landing page",
+      name: "GPT-3",
+      technology : ["HTML", "CSS", "ReactJS",],
+      link: "https://rabby-shek.github.io/gpt/"
+    },
+    {
+      id: 12,
+      category: "web",
+      imgSrc: Docrx1,
+      description: "Prescription, Medicine and schedule management.",
+      name: "DocRx",
+      technology : ["HTML", "CSS", "JavaScript","JQuery","PHP","MySQL"],
+      link: "https://smartprescription.hishabkitab.com/"
+    },
+    {
+      id: 13,
+      category: "web",
+      imgSrc: Restaurant,
+      description: "Restaurant Landing page",
+      name: "Restaurant Landing page",
+      technology : ["HTML", "CSS","JavaScript", "AOS"],
+      link: "https://rabby-shek.github.io/quality/#home"
+    },
+    {
+      id: 14,
+      category: "web",
+      imgSrc: CarRentalService,
+      description: "Car rental Service with invoice.",
+      name: "Car rental service",
+      technology : ["ReactJS","Bootstrap","CSS", "API", "Context API"],
+      link: "https://rabby-shek.github.io/car-rental-invoice-service/"
+    },
+    {
+      id: 15,
+      category: "web",
+      imgSrc: Cactus,
+      description: "A Cactus Shop Website",
+      name: "Opuntia cacti ",
+      technology : ["HTML","CSS", "JavaScript", "AOS"],
+      link: "https://rabby-shek.github.io/responsive-cactus-website/"
+    },
+    
   ];
 
   const renderProjects = (category) => {
     return projects
       .filter((project) => category === "all" || project.category === category)
+      .sort((a, b) => b.id - a.id )
       .map((project) => (
         <div key={project.id} className="col-lg-4 col-md-4 col-sm-6 mb-4" data-aos="flip-up">
           <div className="card h-100">
