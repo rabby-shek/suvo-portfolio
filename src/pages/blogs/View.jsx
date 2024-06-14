@@ -65,7 +65,7 @@ const View = () => {
                       <div className="lpa-left media-body">
                         <div className="lpa-title">
                           <h5>
-                            <NavLink to={`/blog/${latestBlog.id}`}>
+                            <NavLink to={`/blog/view/${latestBlog.id}`}>
                               {latestBlog.title}
                             </NavLink>
                           </h5>
