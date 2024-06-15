@@ -14,6 +14,7 @@ import DigitalClock from "../../assets/images/digital-clock.PNG";
 import TikTakToe from "../../assets/images/tik-tac-toe.PNG";
 import transition from "../../transition";
 import Cactus from '../../assets/images/cactus/hero.PNG';
+import FreshMango from '../../assets/images/fresh-mango.png';
 const Projects = () => {
   const projects = [
     
@@ -151,6 +152,15 @@ const Projects = () => {
       name: "Opuntia cacti ",
       technology : ["HTML","CSS", "JavaScript", "AOS"],
       link: "https://rabby-shek.github.io/responsive-cactus-website/"
+    },
+    {
+      id: 16,
+      category: "web",
+      imgSrc: FreshMango,
+      description: "Mango Selling Landing Page",
+      name: "Fresh Mango",
+      technology : ["HTML","CSS", "ReactJS", "AOS"],
+      link: "https://rabby-shek.github.io/fresh-mango/"
     },
     
   ];
