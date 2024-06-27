@@ -15,6 +15,8 @@ import TikTakToe from "../../assets/images/tik-tac-toe.PNG";
 import transition from "../../transition";
 import Cactus from '../../assets/images/cactus/hero.PNG';
 import FreshMango from '../../assets/images/fresh-mango.png';
+import CakeIt from '../../assets/images/cake-it.png';
+import KanbanTodoList from '../../assets/images/kanban-todo-list.png';
 const Projects = () => {
   const projects = [
     
@@ -162,7 +164,24 @@ const Projects = () => {
       technology : ["HTML","CSS", "ReactJS", "AOS"],
       link: "https://rabby-shek.github.io/fresh-mango/"
     },
-    
+    {
+      id: 17,
+      category: "web",
+      imgSrc: CakeIt,
+      description: "Cake Shop Landing Page",
+      name: "CakeIt",
+      technology : ["HTML","CSS", "ReactJS",],
+      link: "https://rabby-shek.github.io/cake-it/"
+    },
+    {
+      id: 18,
+      category: "web",
+      imgSrc: KanbanTodoList,
+      description: "Kanban Style Todo List",
+      name: "Todo-List",
+      technology : ["HTML","CSS", "ReactJS"],
+      link: "https://rabby-shek.github.io/todo-list/"
+    },
   ];
 
   const renderProjects = (category) => {

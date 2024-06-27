@@ -50,7 +50,10 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg nav-top" id="home">
         <div className="container-fluid">
-          <a className="navbar-brand" onClick={() => navigate("/suvo-portfolio")}>
+          <a
+            className="navbar-brand"
+            onClick={() => navigate("/suvo-portfolio")}
+          >
             Suvo
           </a>
           <button
