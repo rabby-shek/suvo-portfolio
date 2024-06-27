@@ -179,7 +179,7 @@ const Projects = () => {
       imgSrc: KanbanTodoList,
       description: "Kanban Style Todo List",
       name: "Todo-List",
-      technology : ["HTML","CSS", "ReactJS"],
+      technology : ["HTML","CSS","Bootstrap","ReactJS"],
       link: "https://rabby-shek.github.io/todo-list/"
     },
   ];
