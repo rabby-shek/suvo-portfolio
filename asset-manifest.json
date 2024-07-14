@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/suvo-portfolio/static/css/main.19e6a124.css",
-    "main.js": "/suvo-portfolio/static/js/main.49a0136c.js",
+    "main.js": "/suvo-portfolio/static/js/main.938baa6a.js",
     "static/js/453.eeea2c24.chunk.js": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js",
     "static/media/hacker-rank-js-cirtificate.jpg": "/suvo-portfolio/static/media/hacker-rank-js-cirtificate.daa51e1c7954ab27a18e.jpg",
     "static/media/fresh-mango.png": "/suvo-portfolio/static/media/fresh-mango.dd7df5b78abffdfe50c8.png",
@@ -21,6 +21,7 @@
     "static/media/dashboard-section.PNG": "/suvo-portfolio/static/media/dashboard-section.847f23e7995bb73dea45.PNG",
     "static/media/Gemini-api-program.PNG": "/suvo-portfolio/static/media/Gemini-api-program.2c77a4cb7845079f3f5b.PNG",
     "static/media/car-rental-service.PNG": "/suvo-portfolio/static/media/car-rental-service.4b7be4a17bab3706acca.PNG",
+    "static/media/css-unit-converter.png": "/suvo-portfolio/static/media/css-unit-converter.5eff27821226af56e1ca.png",
     "static/media/google-colab-1.PNG": "/suvo-portfolio/static/media/google-colab-1.b820ebaca1be101df567.PNG",
     "static/media/hangman-game.PNG": "/suvo-portfolio/static/media/hangman-game.4d35d636538a11dd0568.PNG",
     "static/media/tik-tac-toe.PNG": "/suvo-portfolio/static/media/tik-tac-toe.53b8b1c1e0117e622be5.PNG",
@@ -31,11 +32,11 @@
     "static/media/RESUME.jpg": "/suvo-portfolio/static/media/RESUME.cb8076fd17506b2703f5.jpg",
     "index.html": "/suvo-portfolio/index.html",
     "main.19e6a124.css.map": "/suvo-portfolio/static/css/main.19e6a124.css.map",
-    "main.49a0136c.js.map": "/suvo-portfolio/static/js/main.49a0136c.js.map",
+    "main.938baa6a.js.map": "/suvo-portfolio/static/js/main.938baa6a.js.map",
     "453.eeea2c24.chunk.js.map": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19e6a124.css",
-    "static/js/main.49a0136c.js"
+    "static/js/main.938baa6a.js"
   ]
 }
