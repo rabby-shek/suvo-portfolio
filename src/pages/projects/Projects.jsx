@@ -18,6 +18,7 @@ import FreshMango from '../../assets/images/fresh-mango.png';
 import CakeIt from '../../assets/images/cake-it.png';
 import KanbanTodoList from '../../assets/images/kanban-todo-list.png';
 import CSSUNITCONVERTER from '../../assets/images/css-unit-converter.png';
+import Mark1AdminPanel from "../../assets/images/mark-1-admin-panel.png";
 const Projects = () => {
   const projects = [
     
@@ -191,6 +192,15 @@ const Projects = () => {
       name: "CSS Unit Converter",
       technology : ["HTML","CSS","Bootstrap","JavaScript"],
       link: "https://rabby-shek.github.io/css-unit-converter/"
+    },
+    {
+      id: 20,
+      category: "web",
+      imgSrc: Mark1AdminPanel,
+      description: "Mark 1 Admin Panel",
+      name: "Mark 1 Admin Panel",
+      technology : ["HTML","CSS","Bootstrap","JavaScript", "ReactJS", "AOS"],
+      link: "https://rabby-shek.github.io/adminpanelmark1"
     },
   ];
 
