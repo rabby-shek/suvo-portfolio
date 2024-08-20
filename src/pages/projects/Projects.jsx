@@ -209,8 +209,8 @@ const Projects = () => {
       .filter((project) => category === "all" || project.category === category)
       .sort((a, b) => b.id - a.id )
       .map((project) => (
-        <div key={project.id} className="col-lg-4 col-md-4 col-sm-6 mb-4" data-aos="flip-up">
-          <div className="card h-100">
+        <div key={project.id} className="col-lg-4 col-md-4 col-sm-6 mb-4 " data-aos="flip-up">
+          <div className="card h-100 project">
             <img src={project.imgSrc} className="card-img-top" alt={project.description} height={200} />
             <div className="card-body">
                 <div className="fw-bold">{project.name}</div>
