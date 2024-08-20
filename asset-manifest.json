@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/suvo-portfolio/static/css/main.d97c8f71.css",
-    "main.js": "/suvo-portfolio/static/js/main.4c93f8d8.js",
+    "main.js": "/suvo-portfolio/static/js/main.37149822.js",
     "static/js/453.eeea2c24.chunk.js": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js",
     "static/media/hacker-rank-js-cirtificate.jpg": "/suvo-portfolio/static/media/hacker-rank-js-cirtificate.daa51e1c7954ab27a18e.jpg",
     "static/media/fresh-mango.png": "/suvo-portfolio/static/media/fresh-mango.dd7df5b78abffdfe50c8.png",
@@ -34,11 +34,11 @@
     "static/media/RESUME.jpg": "/suvo-portfolio/static/media/RESUME.cb8076fd17506b2703f5.jpg",
     "index.html": "/suvo-portfolio/index.html",
     "main.d97c8f71.css.map": "/suvo-portfolio/static/css/main.d97c8f71.css.map",
-    "main.4c93f8d8.js.map": "/suvo-portfolio/static/js/main.4c93f8d8.js.map",
+    "main.37149822.js.map": "/suvo-portfolio/static/js/main.37149822.js.map",
     "453.eeea2c24.chunk.js.map": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d97c8f71.css",
-    "static/js/main.4c93f8d8.js"
+    "static/js/main.37149822.js"
   ]
 }
