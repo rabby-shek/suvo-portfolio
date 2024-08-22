@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/suvo-portfolio/static/css/main.d97c8f71.css",
-    "main.js": "/suvo-portfolio/static/js/main.37149822.js",
+    "main.js": "/suvo-portfolio/static/js/main.a9a52e1b.js",
     "static/js/453.eeea2c24.chunk.js": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js",
     "static/media/hacker-rank-js-cirtificate.jpg": "/suvo-portfolio/static/media/hacker-rank-js-cirtificate.daa51e1c7954ab27a18e.jpg",
     "static/media/fresh-mango.png": "/suvo-portfolio/static/media/fresh-mango.dd7df5b78abffdfe50c8.png",
@@ -10,6 +10,7 @@
     "static/media/master-linear-data-structure.jpg": "/suvo-portfolio/static/media/master-linear-data-structure.5883f8c1a0385bb73867.jpg",
     "static/media/hero.PNG": "/suvo-portfolio/static/media/hero.3107936662101bcaadb1.PNG",
     "static/media/cake-it.png": "/suvo-portfolio/static/media/cake-it.43d3d7f58a3c91ae5417.png",
+    "static/media/task-tracker.png": "/suvo-portfolio/static/media/task-tracker.dbb762003a793d5fb662.png",
     "static/media/solo-learn-responsive.png": "/suvo-portfolio/static/media/solo-learn-responsive.577e02e31fdc685a1057.png",
     "static/media/solo-l-js.png": "/suvo-portfolio/static/media/solo-l-js.0f2f37a6266a07ab0a3a.png",
     "static/media/css-solo-learn-cirtificate.png": "/suvo-portfolio/static/media/css-solo-learn-cirtificate.a6893a9bc9a0d6752cc0.png",
@@ -34,11 +35,11 @@
     "static/media/RESUME.jpg": "/suvo-portfolio/static/media/RESUME.cb8076fd17506b2703f5.jpg",
     "index.html": "/suvo-portfolio/index.html",
     "main.d97c8f71.css.map": "/suvo-portfolio/static/css/main.d97c8f71.css.map",
-    "main.37149822.js.map": "/suvo-portfolio/static/js/main.37149822.js.map",
+    "main.a9a52e1b.js.map": "/suvo-portfolio/static/js/main.a9a52e1b.js.map",
     "453.eeea2c24.chunk.js.map": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d97c8f71.css",
-    "static/js/main.37149822.js"
+    "static/js/main.a9a52e1b.js"
   ]
 }
