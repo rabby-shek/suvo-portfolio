@@ -48,12 +48,12 @@ const Certificates = () => {
     {
       id: 8,
       path: MasterLinearDataStructure,
-      flip: "fli-left",
+      flip: "flip-left",
     },
     {
       id: 9,
       path: ICPCCertificate,
-      flip: "fli-left",
+      flip: "flip-right",
     },
     
   ];

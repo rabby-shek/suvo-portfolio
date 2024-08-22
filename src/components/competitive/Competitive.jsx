@@ -44,11 +44,11 @@ const Competitive = () => {
               <h5 className="card-title">Hacker Rank</h5>
               <p className="card-text">
                 {startCount && hackerrankInView ? (
-                  <CountUp start={0} end={25} duration={2} /> 
+                  <>Over <CountUp start={0} end={25} duration={2} /></> 
                 ) : (
                   "Over 25+ Problems"
                 )}
-                {" "}Problems Solved
+                {" "} + Problems Solved
               </p>
             </div>
           </div>
@@ -60,11 +60,14 @@ const Competitive = () => {
               <p className="card-text">
                 Over{" "}
                 {startCount && leetcodeInView && leetCodeData ? (
+                  <>
                   <CountUp
                     start={0}
                     end={leetCodeData.totalSolved - 1}
                     duration={2}
                   />
+                  +
+                  </>
                 ) : (
                   leetCodeData ? `${leetCodeData.totalSolved - 1} Problems Solved` : "Loading..."
                 )}
