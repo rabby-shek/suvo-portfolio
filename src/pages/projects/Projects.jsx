@@ -19,6 +19,7 @@ import CakeIt from '../../assets/images/cake-it.png';
 import KanbanTodoList from '../../assets/images/kanban-todo-list.png';
 import CSSUNITCONVERTER from '../../assets/images/css-unit-converter.png';
 import Mark1AdminPanel from "../../assets/images/mark-1-admin-panel.png";
+import TaskTrackerImg from "../../assets/images/task-tracker.png"
 const Projects = () => {
   const projects = [
     
@@ -201,6 +202,15 @@ const Projects = () => {
       name: "Mark 1 Admin Panel",
       technology : ["HTML","CSS","Bootstrap","JavaScript", "ReactJS", "AOS"],
       link: "https://rabby-shek.github.io/adminpanelmark1"
+    },
+    {
+      id: 21,
+      category: "web",
+      imgSrc: TaskTrackerImg,
+      description: "Task Tracker Landing Page",
+      name: "Task Tracker",
+      technology : ["HTML","CSS","Bootstrap","JavaScript", "ReactJS", "AOS"],
+      link: "https://rabby-shek.github.io/task-tracker/"
     },
   ];
 
