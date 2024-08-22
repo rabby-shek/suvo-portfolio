@@ -7,6 +7,7 @@ import GoogleCertificate1 from "../../assets/images/google-colab-1.PNG";
 import GoogleCertificate2 from "../../assets/images/Gemini-api-program.PNG";
 import HackerRankJS from "../../assets/images/hacker-rank-js-cirtificate.jpg";
 import MasterLinearDataStructure from "../../assets/images/master-linear-data-structure.jpg";
+import ICPCCertificate from "../../assets/images/icpc-2021-certificate.jpg";
 const Certificates = () => {
   const certificateList = [
     {
@@ -49,6 +50,12 @@ const Certificates = () => {
       path: MasterLinearDataStructure,
       flip: "fli-left",
     },
+    {
+      id: 9,
+      path: ICPCCertificate,
+      flip: "fli-left",
+    },
+    
   ];
   return (
     <section className="certificate-container">
