@@ -1,8 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaNodeJs, FaReact, FaDatabase, FaPhp } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaNodeJs, FaReact, FaPhp,FaLaravel } from 'react-icons/fa';
 import { SiTailwindcss, SiJquery, SiMongodb, SiMysql } from 'react-icons/si';
-
+import { BiLogoTypescript } from "react-icons/bi";
+import { TbBrandVite } from "react-icons/tb";
 const skills = [
   { name: "HTML", icon: <FaHtml5 color="#E44D26" /> },
   { name: "CSS", icon: <FaCss3Alt color="#264DE4" /> },
@@ -15,7 +16,10 @@ const skills = [
   { name: "MongoDB", icon: <SiMongodb color="#4DB33D" /> },
   { name: "MySQL", icon: <SiMysql color="#4479A1" /> },
   { name: "PHP", icon: <FaPhp color="#777BB4" /> },
-  { name: "ReactJS", icon: <FaReact color="#61DAFB" /> }
+  { name: "ReactJS", icon: <FaReact color="#61DAFB" /> },
+  { name: "TypeScript", icon: <BiLogoTypescript color="#3178C6" /> },
+  { name: "Laravel (Basic)", icon: <FaLaravel color="#FF2D20" /> },
+  { name: "Vite", icon: <TbBrandVite color="#FF2D20" /> },
 ];
 
 const Skills = () => {

@@ -11,11 +11,11 @@ const Header = () => {
       title: "Home",
       path: "/suvo-portfolio",
     },
-    {
-      id: 3,
-      title: "Resume",
-      path: "/resume",
-    },
+    // {
+    //   id: 3,
+    //   title: "Resume",
+    //   path: "/resume",
+    // },
     {
       id: 4,
       title: "Projects",
@@ -50,12 +50,12 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg nav-top" id="home">
         <div className="container-fluid">
-          <a
+          <NavLink
+            to={() => navigate("/suvo-portfolio")}
             className="navbar-brand"
-            onClick={() => navigate("/suvo-portfolio")}
           >
             Suvo
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
