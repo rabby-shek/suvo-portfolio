@@ -19,7 +19,8 @@ import CakeIt from '../../assets/images/cake-it.png';
 import KanbanTodoList from '../../assets/images/kanban-todo-list.png';
 import CSSUNITCONVERTER from '../../assets/images/css-unit-converter.png';
 import Mark1AdminPanel from "../../assets/images/mark-1-admin-panel.png";
-import TaskTrackerImg from "../../assets/images/task-tracker.png"
+import TaskTrackerImg from "../../assets/images/task-tracker.png";
+import SnakeGame from "../../assets/images/snake-game.png";
 const Projects = () => {
   const projects = [
     
@@ -211,6 +212,15 @@ const Projects = () => {
       name: "Task Tracker",
       technology : ["HTML","CSS","Bootstrap","JavaScript", "ReactJS", "AOS"],
       link: "https://rabby-shek.github.io/task-tracker/"
+    },
+    {
+      id: 22,
+      category: "web",
+      imgSrc: SnakeGame,
+      description: "Web Snake Game",
+      name: "snake Game",
+      technology : ["HTML","CSS","JavaScript"],
+      link: "https://rabby-shek.github.io/snake-game/"
     },
   ];
 
