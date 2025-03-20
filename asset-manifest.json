@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/suvo-portfolio/static/css/main.d97c8f71.css",
-    "main.js": "/suvo-portfolio/static/js/main.049e7fed.js",
+    "main.js": "/suvo-portfolio/static/js/main.fb19f7f7.js",
     "static/js/453.eeea2c24.chunk.js": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js",
     "static/media/hacker-rank-js-cirtificate.jpg": "/suvo-portfolio/static/media/hacker-rank-js-cirtificate.daa51e1c7954ab27a18e.jpg",
     "static/media/fresh-mango.png": "/suvo-portfolio/static/media/fresh-mango.dd7df5b78abffdfe50c8.png",
@@ -29,6 +29,7 @@
     "static/media/google-colab-1.PNG": "/suvo-portfolio/static/media/google-colab-1.b820ebaca1be101df567.PNG",
     "static/media/hangman-game.PNG": "/suvo-portfolio/static/media/hangman-game.4d35d636538a11dd0568.PNG",
     "static/media/tik-tac-toe.PNG": "/suvo-portfolio/static/media/tik-tac-toe.53b8b1c1e0117e622be5.PNG",
+    "static/media/snake-game.png": "/suvo-portfolio/static/media/snake-game.732601518138df9c3171.png",
     "static/media/todo-app.PNG": "/suvo-portfolio/static/media/todo-app.52f364ea4d2f6decf37a.PNG",
     "static/media/MD Rabby Shek Suvo Resume.pdf": "/suvo-portfolio/static/media/MD Rabby Shek Suvo Resume.ffc24f89ab9fb350a376.pdf",
     "static/media/bag.svg": "/suvo-portfolio/static/media/bag.909585268b964798db88.svg",
@@ -36,11 +37,11 @@
     "static/media/RESUME.jpg": "/suvo-portfolio/static/media/RESUME.cb8076fd17506b2703f5.jpg",
     "index.html": "/suvo-portfolio/index.html",
     "main.d97c8f71.css.map": "/suvo-portfolio/static/css/main.d97c8f71.css.map",
-    "main.049e7fed.js.map": "/suvo-portfolio/static/js/main.049e7fed.js.map",
+    "main.fb19f7f7.js.map": "/suvo-portfolio/static/js/main.fb19f7f7.js.map",
     "453.eeea2c24.chunk.js.map": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d97c8f71.css",
-    "static/js/main.049e7fed.js"
+    "static/js/main.fb19f7f7.js"
   ]
 }
