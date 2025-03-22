@@ -8,6 +8,7 @@ import GoogleCertificate2 from "../../assets/images/Gemini-api-program.PNG";
 import HackerRankJS from "../../assets/images/hacker-rank-js-cirtificate.jpg";
 import MasterLinearDataStructure from "../../assets/images/master-linear-data-structure.jpg";
 import ICPCCertificate from "../../assets/images/icpc-2021-certificate.jpg";
+import LeetCode50DaysBadge from "../../assets/images/fifty-days-leetcode-badge.png";
 const Certificates = () => {
   const certificateList = [
     {
@@ -55,6 +56,11 @@ const Certificates = () => {
       path: ICPCCertificate,
       flip: "flip-right",
     },
+    {
+      id: 10,
+      path: LeetCode50DaysBadge,
+      flip: "flip-left",
+    }
     
   ];
   return (
