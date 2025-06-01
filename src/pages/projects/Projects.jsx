@@ -21,6 +21,7 @@ import CSSUNITCONVERTER from '../../assets/images/css-unit-converter.png';
 import Mark1AdminPanel from "../../assets/images/mark-1-admin-panel.png";
 import TaskTrackerImg from "../../assets/images/task-tracker.png";
 import SnakeGame from "../../assets/images/snake-game.png";
+import TypeTest from "../../assets/images/type-test.png";
 const Projects = () => {
   const projects = [
     
@@ -221,6 +222,15 @@ const Projects = () => {
       name: "snake Game",
       technology : ["HTML","CSS","JavaScript"],
       link: "https://rabby-shek.github.io/snake-game/"
+    },
+    {
+      id: 23,
+      category: "web",
+      imgSrc: TypeTest,
+      description: "Typing speed test",
+      name: "Typing speed test",
+      technology : ["HTML","CSS","JavaScript"],
+      link: "https://rabby-shek.github.io/word-typing-speed-cheacker/"
     },
   ];
 
