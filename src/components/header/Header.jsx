@@ -51,7 +51,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg nav-top" id="home">
         <div className="container-fluid">
           <NavLink
-            to={() => navigate("/suvo-portfolio")}
+            to="/suvo-portfolio"
             className="navbar-brand"
           >
             Suvo

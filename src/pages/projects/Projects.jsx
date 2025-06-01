@@ -233,9 +233,9 @@ const Projects = () => {
           <div className="card h-100 project">
             <img src={project.imgSrc} className="card-img-top" alt={project.description} height={200} />
             <div className="card-body">
-                <div className="fw-bold">{project.name}</div>
-                <div>{project.description}</div>
-                <div>{project.technology.join(", ")}</div>
+                <div className="project-title">{project.name}</div>
+                <div className="project-description">{project.description}</div>
+                <div className="text-muted">{project.technology.join(", ")}</div>
                 <a href={project.link} target="_blank" rel="noreferrer">Live</a>
             </div>
           </div>
@@ -249,7 +249,7 @@ const Projects = () => {
         <ul className="nav nav-pills mb-3 d-flex align-items-center justify-content-center" id="pills-tab" role="tablist">
           <li className="nav-item" role="presentation">
             <button
-              className="nav-link active"
+              className="nav-link active project-tabs"
               id="all-tab"
               data-bs-toggle="pill"
               data-bs-target="#all"
@@ -263,7 +263,7 @@ const Projects = () => {
           </li>
           <li className="nav-item" role="presentation">
             <button
-              className="nav-link"
+              className="nav-link project-tabs"
               id="web-tab"
               data-bs-toggle="pill"
               data-bs-target="#web"
@@ -277,7 +277,7 @@ const Projects = () => {
           </li>
           <li className="nav-item" role="presentation">
             <button
-              className="nav-link"
+              className="nav-link project-tabs"
               id="app-tab"
               data-bs-toggle="pill"
               data-bs-target="#app"

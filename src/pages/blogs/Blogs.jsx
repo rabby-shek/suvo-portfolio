@@ -20,7 +20,7 @@ const Blogs = () => {
         <div className="row gy-4">
           {blogsData.map((blog) => (
             <div key={blog.id} className="col-sm-6" data-aos={blog.fade}>
-              <div className="blog-post d-flex shadow-on-hover">
+              <div className="blog-post d-flex shadow-on-hover h-100">
                 <img src={blog.image} alt="blogs" />
                 <div className="blog-post-content p-4">
                   <p>Posted: {blog.date}</p>
