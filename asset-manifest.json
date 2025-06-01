@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/suvo-portfolio/static/css/main.d97c8f71.css",
-    "main.js": "/suvo-portfolio/static/js/main.d8994bd9.js",
+    "main.css": "/suvo-portfolio/static/css/main.d4405213.css",
+    "main.js": "/suvo-portfolio/static/js/main.07a3c57f.js",
     "static/js/453.eeea2c24.chunk.js": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js",
     "static/media/hacker-rank-js-cirtificate.jpg": "/suvo-portfolio/static/media/hacker-rank-js-cirtificate.daa51e1c7954ab27a18e.jpg",
     "static/media/fresh-mango.png": "/suvo-portfolio/static/media/fresh-mango.dd7df5b78abffdfe50c8.png",
@@ -17,6 +17,8 @@
     "static/media/css-solo-learn-cirtificate.png": "/suvo-portfolio/static/media/css-solo-learn-cirtificate.a6893a9bc9a0d6752cc0.png",
     "static/media/home.PNG": "/suvo-portfolio/static/media/home.565c3284323ca8c354eb.PNG",
     "static/media/dashboard.PNG": "/suvo-portfolio/static/media/dashboard.f16026382097fcc5b441.PNG",
+    "static/media/math.png": "/suvo-portfolio/static/media/math.230f6e85a382af4537e2.png",
+    "static/media/type-test.png": "/suvo-portfolio/static/media/type-test.4fde89a92aa6658a07ea.png",
     "static/media/kanban-todo-list.png": "/suvo-portfolio/static/media/kanban-todo-list.91a3842381fc208303c9.png",
     "static/media/icpc-2021-certificate.jpg": "/suvo-portfolio/static/media/icpc-2021-certificate.0a988595b9427fbab8e1.jpg",
     "static/media/analog-watch-design.PNG": "/suvo-portfolio/static/media/analog-watch-design.004eccbb8e1f9a00631e.PNG",
@@ -37,12 +39,12 @@
     "static/media/digital-clock.PNG": "/suvo-portfolio/static/media/digital-clock.528289bee80378d2833b.PNG",
     "static/media/RESUME.jpg": "/suvo-portfolio/static/media/RESUME.cb8076fd17506b2703f5.jpg",
     "index.html": "/suvo-portfolio/index.html",
-    "main.d97c8f71.css.map": "/suvo-portfolio/static/css/main.d97c8f71.css.map",
-    "main.d8994bd9.js.map": "/suvo-portfolio/static/js/main.d8994bd9.js.map",
+    "main.d4405213.css.map": "/suvo-portfolio/static/css/main.d4405213.css.map",
+    "main.07a3c57f.js.map": "/suvo-portfolio/static/js/main.07a3c57f.js.map",
     "453.eeea2c24.chunk.js.map": "/suvo-portfolio/static/js/453.eeea2c24.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d97c8f71.css",
-    "static/js/main.d8994bd9.js"
+    "static/css/main.d4405213.css",
+    "static/js/main.07a3c57f.js"
   ]
 }
